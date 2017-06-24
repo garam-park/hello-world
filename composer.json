@@ -1,0 +1,13 @@
+{
+    "name": "garam/hello-world",
+    "version": "0.0.0",
+    "authors": [
+        {
+            "name": "Garam Park",
+            "email": "me@garam.xyz"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.23"
+    }
+}
