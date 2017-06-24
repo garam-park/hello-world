@@ -12,5 +12,6 @@
     "require": {
         "monolog/monolog": "^1.23",
         "phpunit/phpunit": "5.7.*"
-    }
+    },
+    "minimum-stability":"stable"
 }
