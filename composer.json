@@ -1,13 +1,16 @@
 {
     "name": "garam/hello-world",
-    "version": "0.0.0",
     "authors": [
         {
             "name": "Garam Park",
             "email": "me@garam.xyz"
         }
     ],
+    "autoload": {
+        "psr-4": {"Garam\\": "src/"}
+    },
     "require": {
-        "monolog/monolog": "^1.23"
+        "monolog/monolog": "^1.23",
+        "phpunit/phpunit": "5.7.*"
     }
 }
